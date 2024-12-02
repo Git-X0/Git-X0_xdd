@@ -5,7 +5,7 @@ function toggleMenu() {
 }
 function RedBLue() {
   const topSection = document.querySelector(".top-section");
-  topSection.style.background = "linear-gradient(#ff0000, #0000ff)";
+  topSection.style.background = "linear-gradient(#ff0000, #00ff00)";
 }
 function YellowBlue() {
   const topSection = document.querySelector(".top-section");
