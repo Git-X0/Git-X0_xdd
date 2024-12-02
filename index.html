@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Úvodní stránka</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="top-section">
       <h1 class="title">Úvodní Stránka</h1>
       <div class="buttons-container">
-        <a href="#" class="button">Tlačítko 1</a>
-        <a href="#" class="button">Tlačítko 2</a>
-        <a href="#" class="button">Tlačítko 3</a>
+        <a href="#" class="button" id="RedBlue">Tlačítko Red/Blue</a>
+        <a href="#" class="button" id="YellowBlue">Tlačítko Yellow/Blue</a>
+        <a href="#" class="button" id="PinkGreen">Tlačítko Pink/Green</a>
       </div>
       <div class="wave"></div>
     </div>
@@ -75,6 +76,10 @@
     <footer class="footer">
       Copyright SPŠ-CL &copy; 2024. All rights reserved.
     </footer>
-    <button class="sticky-button">+</button>
+    <button class="sticky-button" onclick="toggleMenu()">+</button>
+    <div class="quick-menu">
+      <a href="https://google.com">Google</a>
+      <a href="https://seznam.cz">Seznam</a>
+    </div>
   </body>
 </html>
